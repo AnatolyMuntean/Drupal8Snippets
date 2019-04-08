@@ -1,6 +1,7 @@
 <?php
 
-// field_organization is the entity reference field here.
+// field_organization is the entity reference field here, which references
+// a node entity.
 
 /** @var \Drupal\Core\Entity\Plugin\DataType\EntityReference $event_organisation_reference_entity */
 $event_organisation_reference_entity = $node
